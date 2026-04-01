@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Dog Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css"
 </head>
-<body>
+
+<style>
+    *{
+        background-color:rosybrown;
+    }
+    ol{
+        color:aqua
+    }
+    .section{
+        font-size:20px
+    }
+</style>
+<body style="font-family:sans-serif">
     <header>
-    <h1>My Dog Website</h1>
+    <h1 style="color:aqua; text-align:center">My Dog Website</h1>
     <nav>
         <ol>
             <li><a href="#">Home</a></li>
@@ -17,15 +30,15 @@
     </nav>
     </header>
     <main>
-<section>
+<section class="section">
     <article>
         
-        <h2>Facts about Dogs</h2>
-        <p>Dogs have a sense of time. It's been proven that they know the difference between a hour and five. If conditioned to,
+        <h2 style="text-align:center; color:red">Facts about Dogs</h2>
+        <p id="p1">Dogs have a sense of time. It's been proven that they know the difference between a hour and five. If conditioned to,
         they can predict future events, such as regular walk times.</p>
     </article>
     <aside>
-        <p>
+        <p id="p2">
             Dogs have an incredible sense of smell that not only helps them explore the world but can also be used to help people.
             Dogs have been used to help with police investigations and even to help diagnose and monitor health conditions in
             people.
@@ -34,9 +47,9 @@
 </section>
 <figure>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3bbMc6MZBCw1ZaTyj4y9JzxS8P8ux_ZX93Q&s">
-    <figcaption>A cute dog</figcaption>
+    <figcaption style="font-size:x-large; font-weight:bold;">A cute dog</figcaption>
 </figure>
     </main>
-    <footer><p>Contact us</p></footer>
+    <footer><p id="p3">Contact us on +91 7021*****8</p></footer>
 </body>
 </html>
