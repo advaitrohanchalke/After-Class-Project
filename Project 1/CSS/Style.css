@@ -188,3 +188,10 @@ ol li {
     margin-bottom: 20px;
 
 }
+/*fourth lesson*/
+#book reviews p,
+#book reviews h3{
+    position :relative;
+    left:40%;
+    width:400px;
+}
