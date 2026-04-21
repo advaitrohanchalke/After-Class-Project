@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zepto Quick Delivery | Groceries in just minutes*</title>
+  <link rel="icon" href="" type="image/png">
+</head>
+<style>
+  .otp-input{
+    visibility: ;
+  }
+</style>
+<body align="center" style="font-family:system-ui;">
+<img src="https://cdn.iconscout.com/icon/free/png-256/free-zepto-icon-svg-download-png-12158609.png?f=webp" style="padding-bottom: 200px;">
+<br>
+<p style="font-family: system-ui; position: absolute; right: 350px; top: 415px; font-size: 25px;">Enter Phone Number</p>
+<select id="country" name="country">
+  <option value="91">+91 (India)</option>
+  <option value="1">+1 (USA)</option>
+  <option value="44">+44 (UK)</option>
+  <option value="92">+92 (Pakistan)</option>
+</select>
+<input placeholder="Enter Phone Number" style="font-family:system-ui; font-size:20px; width: 15em; height: 35px; border-radius: 10px;"   inputmode="tel" maxlength="10" 
+       oninput="this.value = this.value.replace(/[^0-9]/g, '');" ><br><br><br><br><br><br><br><br><br><br>
+       <button style="padding: 10px; font-size:20px" onclick="showComponent('input')">Submit</button>
+       <script>
+        if (button.onclick) {
+          alert("OTP sent to your phone number");
+        }
+       </script><br><br>
+      <input class="otp-input" placeholder="Enter OTP"
+        style="font-family:system-ui; font-size:20px; width: 15em; height: 35px; border-radius: 10px;" inputmode="tel" maxlength="6" 
+       oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+     
+    
+</body>
+</html>
