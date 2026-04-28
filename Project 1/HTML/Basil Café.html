@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basil Café | Free Delivery in just 15 mins</title>
+    <link href="" rel="icon" type="image/x-icon">
+</head>
+<style>
+    input{
+        width: 1000px; height: 25px;
+        border-radius: 5px;
+        font-size: 15px;
+        border-width: 0px;
+    }
+</style>
+<body>
+    <header>
+      <input placeholder="Search for snacks, beverages, desserts and more..." oninput="liveUpdate()" id="lol">
+      <p style="visibility: hidden;">Showing results for "<label id="result" style=""></label>"</p>
+      <img src="data:image/webp;base64,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" style="visibility: hidden;">
+    </header>
+    <script>
+        function liveUpdate() {
+            const val = document.getElementById("lol").value;
+            document.getElementById("result").innerHTML = val;
+            document.getElementById("result").parentElement.style.visibility = "visible";
+            if (val === "Coffee") {
+             document.getElementById("result").innerHTML = "<b>Welcome!</b> <button>Click</button> <script>  if (val==="Coffee"){alert('Welcome to Basil Café!');}";   
+            }
+
+        }
+    </script>
+    <!-- The empty container where the list will go -->
+    <div id="listContainer"></div>
+    
+    <button onclick="generateList()">Load Menu</button>
+    
+    <script>
+        function generateList() {
+            // 1. Your data (Array)
+            const items = ["Home", "About", "Services", "Contact"];
+
+            // 2. Start a string with the opening <ul> tag
+            let listHTML = "<ul>";
+
+            // 3. Loop through the array and add <li> for each item
+            items.forEach(function (item) {
+                listHTML += "<li>" + item + "</li>";
+            });
+
+            // 4. Close the <ul> tag
+            listHTML += "</ul>";
+
+            // 5. Inject the whole string into the div
+            document.getElementById("listContainer").innerHTML = listHTML;
+        }
+    </script>
+
+</body>
+</html>
